@@ -1,0 +1,20 @@
+#alert1 {
+  position:absolute;
+  visibility:visible;
+  left:500px;
+  top:35px;
+  width:430px;
+  height:40px;
+  z-index:1;
+  overflow: visible;
+  background-color: white;
+}
+
+.advisory{
+  padding: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #CC3300;
+  width:99%;
+  background:white;
+}
