@@ -97,10 +97,15 @@
 }
 
 .page-header {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.page-title {
+.projectweek {
+  color: #777;
+}
 
+.view-link {
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #aaa;
 }
