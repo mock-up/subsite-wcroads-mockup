@@ -1,3 +1,9 @@
+/*fixes long link wrapping - mostly for helping tables be more reponsive*/
+/*http://davidwalsh.name/fix-long-link-wrapping*/
+a {
+  word-wrap: break-word;
+}
+
 #alert1 {
   position:absolute;
   visibility:visible;
@@ -97,7 +103,7 @@
 }
 
 .page-header {
-  padding-bottom: 20px;
+  margin: 2px 15px 20px 15px;
 }
 
 .projectweek {
