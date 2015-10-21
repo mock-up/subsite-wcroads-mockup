@@ -127,3 +127,7 @@ a {
   padding-bottom: 8px;
   border-bottom: 1px solid #eee;
 }
+
+.navbar-toggle {
+  border-radius: 0px;
+}
