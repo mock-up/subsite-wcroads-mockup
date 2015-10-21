@@ -1,3 +1,9 @@
+/*fixes long link wrapping - mostly for helping tables be more reponsive*/
+/*http://davidwalsh.name/fix-long-link-wrapping*/
+a {
+  word-wrap: break-word;
+}
+
 #alert1 {
   position:absolute;
   visibility:visible;
@@ -80,24 +86,36 @@
   font-size: 12px;
   font-family: inherit;
   font-weight: normal;
-  margin-top: 48px;
-  padding: 18px 4px 24px 4px;
-  border-top: 1px solid #777;
+  margin-top: 36px;
+  padding: 18px 15px 24px 15px;
+  background-color: #eee;
 }
 
-#contactinfo {
+.footer h5 {
+  font-weight: 700;
+  color: #262626;
+}
+
+.contactinfo {
   font-family: inherit;
   font-size: inherit;
   font-weight: normal;
   color: black;
   margin-left: 0;
   padding: 12px;
-  margin: 18px 0 18px;
-  background-color: #E5E1D7;
+}
+
+.copyright {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: normal;
+  color: black;
+  margin-left: 0;
+  padding: 12px;
 }
 
 .page-header {
-  padding-bottom: 20px;
+  margin: 2px 15px 20px 15px;
 }
 
 .projectweek {
@@ -107,5 +125,9 @@
 .view-link {
   margin-bottom: 24px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-toggle {
+  border-radius: 0px;
 }
