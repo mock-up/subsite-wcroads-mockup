@@ -1,0 +1,150 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* css resets
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+html, body { height: 100%; }
+
+body {
+  font-size: 1.6em;
+}
+
+p, ul, ol {
+  font-size: 20px; font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; line-height: 28px;
+}
+
+code {
+  font-size: 16px; font-family: "Inconsolata", Courier, monospace; background-color: #959595; color: #222222; padding: 4px; border-radius: 0px;
+}
+
+/*fixes long link wrapping - mostly for helping tables be more reponsive*/
+/*http://davidwalsh.name/fix-long-link-wrapping*/
+a {
+  word-wrap: break-word;
+}
+
+#alert1 {
+  position:absolute;
+  visibility:visible;
+  left:500px;
+  top:35px;
+  width:430px;
+  height:40px;
+  z-index:1;
+  overflow: visible;
+  background-color: white;
+}
+
+.advisory{
+  padding: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #CC3300;
+  width:99%;
+  background:white;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  margin-bottom: 20px;
+}
+
+#navcolumn {
+  width: initial;
+  margin-left: initial;
+  background-color: #E5E1D7;
+  padding-top: initial;
+  padding-left: initial;
+  padding: 16px 2px 16px 4px;
+  margin-bottom: 24px;
+}
+
+.navlinkarea {
+  margin-bottom: initial;
+  font-size: initial;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.navigation a {
+  color: #262626;
+  font-size: 12px;
+}
+
+.navigation ul {
+  margin-bottom: 24px;
+}
+
+.social-links {
+  text-align: center;
+  margin-bottom: 12px;
+  padding: 3px;
+  background-color: #E5E1D7;
+  border: none;
+}
+
+.social-links a, .social-links a:active, .social-links a:visited {
+  color: #262626;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #337ab7;
+}
+
+.footer {
+  clear: both;
+  height: inherit;
+  border-width: 0;
+  border-style: none;
+  border-color: #fff;
+  vertical-align: inherit;
+  background: inherit;
+  margin: 0;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: normal;
+  margin-top: 36px;
+  padding: 18px 15px 24px 15px;
+  background-color: #eee;
+}
+
+.footer h5 {
+  font-weight: 700;
+  color: #262626;
+}
+
+.contactinfo {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: normal;
+  color: black;
+  margin-left: 0;
+  padding: 12px;
+}
+
+.copyright {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: normal;
+  color: black;
+  margin-left: 0;
+  padding: 12px;
+}
+
+.page-header {
+  margin: 2px 15px 20px 15px;
+}
+
+.projectweek {
+  color: #777;
+}
+
+.view-link {
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-toggle {
+  border-radius: 0px;
+}
