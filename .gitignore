@@ -1,0 +1,16 @@
+.DS_Store
+*~
+
+/.vagrant
+
+/cookbooks
+/tmp
+/*.gem
+/.bundle
+/Cheffile.lock
+/pkg/*
+/tmp
+public/assets/vendor
+
+.sass-cache
+*css.map
